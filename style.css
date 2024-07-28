@@ -76,7 +76,8 @@ main section .contenir-menu{
     width: 150px;
     height: 100%;
     position: fixed;
-    top: 202px;
+    position: relative;
+    top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -89,51 +90,62 @@ section .menu a div {
     color: #0f0f0f;
 }
 
-.contenir-card div{
-    
-}
-
-.card-img{
+.contenir-card .card-text-bg-dark .card-img img{
     object-fit: cover;
-    width: 25%;
-    height: 20%;
-    max-width: 300px;
     width: 250px;
-    overflow: hidden;
     margin: 8px;
     position: absolute;
     border:#0f0f0fa8 solid 4px;
     border-radius: 5px;
     height: 180px;
-    max-height: 170px;
     left: 151px;
+    bottom: 244px;
+}
+
+.contenir-card .card-text-bg-dark .card-img .card-img-overlay{
+    position: absolute;
+    color:white;
+    left: 175px;
+    bottom: 355px;
+}
+
+.contenir-card{
+    display: flex;
     flex-direction: row;
 }
 
-.card-img:hover{
-    cursor: pointer;
-}
-
-.card-img-overlay{
-    position: relative;
-    color:white;
-    left: 175px;
-    top: 13px;
+footer{
+    background-color: #0f0f0f;
 }
 
 footer .lis-footer{
-    background-color:red;
-}
-
-footer .lis-footer .container-lis li a{
     flex-direction: column;
     display: flex;
     overflow: hidden;
     margin-bottom: px;
     margin-left: 10px;
-    color: #0f0f0f;
+    color: white;
+}
+
+footer .lis-footer .container-lis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 footer .Cash-icon{
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container-redes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding-bottom: 10px;
 }
