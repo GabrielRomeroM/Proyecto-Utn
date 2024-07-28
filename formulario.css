@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f0f0f;
+}
+
+header img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+header .title{
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 0;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.title{
+    flex-direction: column;
+    text-align: center;
+}
+
+.contanir-form .input-container{
+    appearance: none;
+    padding: 2px;
+    border: 5px solid white;
+    border-radius: 8px;
+    width: 70%;
+    background-color: transparent;
+    color: white;
+}
+
+.contanir-form .input-select{
+    appearance: none;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 8px;
+    width: 70%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.contanir-form form select option{
+    color:white !important;
+    background: black;
+}
+
+.contanir-form  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+}
+
+.contanir-form .input-select.dia-container{
+    width: 85px;
+}
+
+.contanir-form .input-select.Mes-container{
+    width: 140px;
+}
+
+.contanir-form .input-select.Año-container{
+    width: 85px;
+}
+
+
+.contanir-form .container-cel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+}
+
+.contanir-form .container-cel .input-select.Prefijo-container{
+    width: 80px;
+}
+
+.contanir-form .container-cel .input-select.numero-container{
+    width: 236px;
+}
+
+.container-botton{
+    appearance: none;
+    padding: 2px;
+    border: 5px solid white;
+    border-radius: 8px;
+    width: 70%;
+    background-color: transparent;
+    color: white;
+}

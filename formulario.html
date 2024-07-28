@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registo 3 pasos</title>
+    <link rel="stylesheet" href="./formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <div class="container-img">
+            <img src="./imagenes/logo2.jpg" alt="">
+        </div>
+
+        <div class="title">
+            <h1>REGISTRATE Y GANA $15.000</h1>
+            <h2>CREA TU CUENTA ES MUY FACIL</h2>
+            <small>Los campos marcado con  <b>*</b> son obligatorios</small>
+            <div class="contanir-form">
+                <form>
+                    <br>
+                    <label for="Nombre*"><h4>Nombre*</h4></label>
+                    <input type="text" name="Nombre*" class="input-container">
+
+                    <label for="Apellido/s*"><h4>Apellido/s*</h4></label>
+                    <input type="text" name="Apellido/s*" class="input-container">
+
+                    <label for="Email*"><h4>Email*</h4></label>
+                    <input type="email" name="Email*" class="input-container">
+
+                    <label for="Genero*"><h4>Genero*</h4></label>
+                    <select id="Genero" class="input-select">
+                            <option value="S" selected disabled>Seleccionar</option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Femenino</option>
+                            <option value="N">No binario</option>
+                    </select>
+                    
+                    <label for="Nacionalidad*"><h4>Nacionalidad*</h4></label>
+                    <select id="Nacionalidad" class="input-select">
+                        <option value="S" selected disabled>Seleccionar</option>
+                        <option value="">Argentina</option>
+                        <option value="">Chile</option>
+                        <option value="">Uruguay</option>
+                        <option value="">Bolivia</option>
+                        <option value="">Paraguay</option>
+                        <option value="">Brasil</option>
+                    </select>
+
+                    <label for="Fecha de Nacimiento*"><h4>Fecha de Nacimiento*</h4></label>
+                    <section>
+                        <div class="select-container dia">
+                            <select id="Dia" class="input-select dia-container">
+                                <option value="" selected disabled>Dia*</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16</option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19</option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22</option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <select id="Mes*" class="input-select Mes-container">
+                                <option value="" selected disabled>Mes*</option>
+                                <option value="">Enero</option>
+                                <option value="">Febrero</option>
+                                <option value="">Marzo</option>
+                                <option value="">Abril</option>
+                                <option value="">Mayo</option>
+                                <option value="">Junio</option>
+                                <option value="">Julio</option>
+                                <option value="">Agosto</option>
+                                <option value="">Septiembre</option>
+                                <option value="">Octubre</option>
+                                <option value="">Noviembre</option>
+                                <option value="">Diciembre</option>
+                            </select>
+                        </div>
+
+                        <div class="select-container">
+                            <select id="Año*" class="input-select Año-container">
+                                <option value="">Año*</option>
+                                <option value="">2004</option>
+                                <option value="">2003</option>
+                                <option value="">2002</option>
+                                <option value="">2001</option>
+                                <option value="">2000</option>
+                                <option value="">1999</option>
+                                <option value="">1998</option>
+                                <option value="">1997</option>
+                                <option value="">1996</option>
+                                <option value="">1995</option>
+                                <option value="">1994</option>
+                                <option value="">1993</option>
+                                <option value="">1992</option>
+                                <option value="">1991</option>
+                                <option value="">1990</option>
+                                <option value="">1889</option>
+                                <option value="">1888</option>
+                                <option value="">1887</option>
+                                <option value="">1886</option>
+                                <option value="">1885</option>
+                                <option value="">1884</option>
+                            </select>
+                        </div>
+                    </section>
+                        <label for="Celular"><h4>Celular*</h4></label>
+                            <div class="container-cel"> 
+                                <input type="text" name="Prefijo" placeholder="261" class="input-select Prefijo-container">
+                                <input type="text" name="Celular*" class="input-select numero-container">
+                            </div>
+                            <br>
+                    <div class="">
+                        <button type="submit" class="container-botton"><h3>Suscribirse</h3></button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

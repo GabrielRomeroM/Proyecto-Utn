@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 80%;
+}
+
+img.logo2{
+    width: 150px;
+    position: relative;
+    right: 9px;
+    margin-left: 15px;
+}
+
+.div-header{
+    background-color: #0f0f0f;
+    /* max-height: 240px; */
+}
+
+#lista-top, a{
+    color: white;
+    gap: 10px;
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-top: 16px;
+    align-items: center;
+    margin-right: 14px;
+}
+
+.Inicio{
+    border: white solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 128, 0, 0.562);
+}
+
+.Inicio:hover{
+    background-color: green;
+}
+
+.resitro{
+    border: white solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(214, 23, 23);
+}
+
+.resitro:hover{
+    background-color: red;
+}
+
+#bottom-header{
+    color: white;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
+
+#bottom-header i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+main section .contenir-menu{
+    background:white;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 202px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section .menu a div {
+    color: #0f0f0f;
+}
+
+.contenir-card div{
+    
+}
+
+.card-img{
+    object-fit: cover;
+    width: 25%;
+    height: 20%;
+    max-width: 300px;
+    width: 250px;
+    overflow: hidden;
+    margin: 8px;
+    position: absolute;
+    border:#0f0f0fa8 solid 4px;
+    border-radius: 5px;
+    height: 180px;
+    max-height: 170px;
+    left: 151px;
+    flex-direction: row;
+}
+
+.card-img:hover{
+    cursor: pointer;
+}
+
+.card-img-overlay{
+    position: relative;
+    color:white;
+    left: 175px;
+    top: 13px;
+}
+
+footer .lis-footer{
+    background-color:red;
+}
+
+footer .lis-footer .container-lis li a{
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: px;
+    margin-left: 10px;
+    color: #0f0f0f;
+}
+
+footer .Cash-icon{
+    color: white;
+}
