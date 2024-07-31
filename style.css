@@ -71,48 +71,104 @@ img.logo2{
     cursor: pointer;
 }
 
+main{
+    display: flex;
+}
+
 main section .contenir-menu{
     background:white;
     width: 150px;
     height: 100%;
     position: fixed;
     position: relative;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    bottom: 0px;
 }
 
 section .menu a div {
     color: #0f0f0f;
 }
 
-.contenir-card .card-text-bg-dark .card-img img{
-    object-fit: cover;
-    width: 250px;
+.contenir-card{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.card-img{
+    position: relative;
+    display: inline-block;
+    border:#0f0f0fa8 solid 4px;
+    border-radius: 5px;
     margin: 8px;
+    height: 188px;
+    object-fit: cover;
+}
+
+.card-img img{
+    width: 250px;
+    height: 180px;
+}
+
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: start;
     position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(32, 30, 30, 0.26);
+    color: white;
+}
+
+
+/* .contenir-card .card-text-bg-dark .card-img img{
+    object-fit: cover;
+    max-width: 250px;
+    width: 250px;
+    position: relative;
     border:#0f0f0fa8 solid 4px;
     border-radius: 5px;
     height: 180px;
+    max-height: 180px;
     left: 151px;
-    bottom: 244px;
-}
+    bottom: 796px;
+    margin: 8px;
+} */
 
-.contenir-card .card-text-bg-dark .card-img .card-img-overlay{
+/* .contenir-card .card-text-bg-dark .card-img .card-img-overlay{
     position: absolute;
     color:white;
     left: 175px;
     bottom: 355px;
 }
 
+.contenir-card .card-text-bg-dark .card-img .card-img-fulbol{
+    position: absolute;
+    color:white;
+    left: 440px;
+    bottom: 355px;
+}
+
+.contenir-card .card-text-bg-dark .card-img .card-img-f1{
+    position: absolute;
+    color:white;
+    left: 705px;
+    bottom: 355px;
+}
+
 .contenir-card{
     display: flex;
     flex-direction: row;
-}
+} */
 
 footer{
     background-color: #0f0f0f;
